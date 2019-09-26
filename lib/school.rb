@@ -12,6 +12,7 @@ class School
   def add_student(name, grade)
     @student_name = student_name
     @grade = grade 
-    if roster[grade].include?
+    if roster.include?(grade) == false 
+      
   end
 end
