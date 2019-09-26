@@ -13,6 +13,6 @@ class School
     @student_name = name
     @grade = grade
     if roster.include?(grade) == false 
-      roster[grade]  
+      roster[grade] = []
   end
 end
