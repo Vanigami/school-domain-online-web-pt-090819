@@ -1,8 +1,8 @@
 class School
   attr_reader :name 
   
-  def initualize(name)
-    @name = name
+  def initualize(school_name)
+    @school_name = school_name
   end
   
 end
